@@ -63,3 +63,53 @@ cd YourAppName
 
 # 3. Rename the default branch to 'main' (Standard practice)
 git branch -M main
+```
+
+### 3. Push Local Code to GitHub
+Connect your local Expo files to the empty GitHub repository you just created:
+
+```bash
+# 1. Link the remote repository (Paste your specific URL below)
+git remote add origin https://github.com/YourUsername/YourAppName.git
+
+# 2. Push the initial code
+git push -u origin main
+```
+
+> **Note:** If the push is successful, refresh your GitHub repository page. You should now see your Expo file structure (`app`, `package.json`, `assets`, etc.).
+
+---
+
+## Phase 3: Link Repository to Project Board
+*Goal: Link your planning (Board) with your execution (Code).*
+
+1. Go back to your GitHub **Project Board**.
+2. Click the **Settings** icon (top right, `...` or gear icon).
+3. Select **Linked repositories** from the sidebar.
+4. Click **Link a repository**.
+5. Search for your specific repository name (`YourAppName`) and select it.
+
+---
+
+## Phase 4: Development Workflow
+*Goal: Maintain "Efficient Functionality" throughout the semester.*
+
+Follow this cycle for every feature until Finals Week:
+
+1. **Select Task:** Go to your Board and drag a card (e.g., "Create Login Screen") from **Todo** to **In Progress**.
+
+2. **Code:** Implement the feature in VS Code. Focus on **Modularization** (keep components small).
+
+3. **Test:**
+   - Run `npx expo start` in your terminal.
+   - Press `a` for Android or `i` for iOS (or scan the QR code with your phone) to ensure the app behaves consistently.
+
+4. **Save & Push:** Run the following commands to save your progress to the cloud:
+
+   ```bash
+   git add .
+   git commit -m "Implemented [Feature Name]"
+   git push
+   ```
+
+5. **Complete:** Drag the card on your Board to **Done**.
