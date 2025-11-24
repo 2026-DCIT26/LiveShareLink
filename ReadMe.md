@@ -2,6 +2,8 @@
 **Course:** DCIT 26 – Application Development and Emerging Technologies  
 **Instructor:** Godwin Lorenz B. Llabres  
 **Timeline:** Nov 16, 2024 – Finals Week  
+BSCS 3-1 
+https://docs.google.com/spreadsheets/d/1jvTMjXJBvBpcuqoNQT1ZUrFei92qvTTePa5ylhdnxig/edit?usp=sharing
 
 This guide outlines the steps to initialize your development environment, set up your project management board, and link your code repository to meet the **Finals Project Documentation** requirements.
 
